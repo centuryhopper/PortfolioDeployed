@@ -3,14 +3,14 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BlazorFrontend</title>
+    <title>Leo's Portfolio</title>
     <!-- <base href="https://centuryhopper.github.io/PortfolioDeployed/" /> -->
     <base href="/">
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" href="css/app.css" />
     <link href="_content/Blazored.Modal/blazored-modal.css" rel="stylesheet" />
     <link rel="icon" type="image/png" href="favicon.png" />
-    <link href="BlazorFrontend.styles.css" rel="stylesheet" />
+    <link href="PortfolioFrontend.styles.css" rel="stylesheet" />
 
     <link
       rel="stylesheet"
@@ -19,6 +19,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <link rel="stylesheet" href="_content/Radzen.Blazor/css/material-base.css">
   </head>
 
   <body>
@@ -36,5 +38,6 @@
       <a class="dismiss">🗙</a>
     </div>
     <script src="_framework/blazor.webassembly.js"></script>
+    <script src="_content/Radzen.Blazor/Radzen.Blazor.js?v=@(typeof(Radzen.Colors).Assembly.GetName().Version)"></script>
   </body>
 </html>
